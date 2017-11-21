@@ -1,0 +1,28 @@
+{
+  "ProtocolConfiguration": {
+    "Magic": 444444,
+    "AddressVersion": 23,
+    "StandbyValidators": [
+      // w1: AWYaRiaGLmwD32AkCFTCiTTGt37CAoYZyA
+      "0200551e21c7f508e4393b31e521d842118936ff1fb6315d0bbd95e6a505e652e8",
+      // w2: ANCC8j6i5zmKDXUGP9ZXdLPPo4F4fGWSWJ
+      "02c80a6ac06548f0e52cf28a8e6c6baa13853567dd6e31b2373c15bc090fc6b91b",
+      // w3: APwGScGiGiQ9oCz8tKMiduZQrD98kAcoW7
+      "026058c3707b255dc0a7421a9b1a3decce7fa69246bd3a350927fe03396422237f",
+      // w4: AdLFvU8EG3jeHbA9KmPCwgdGjS6L6B4R6J
+      "03910a231ad0283441ecf994e4b32dade1ae845ee429d41e4c86051bd5c88efb41"
+    ],
+    "SeedList": [
+      "127.0.0.1:4001",
+      "127.0.0.1:4002",
+      "127.0.0.1:4003",
+      "127.0.0.1:4004",
+    ],
+    "SystemFee": {
+      "EnrollmentTransaction": 1000,
+      "IssueTransaction": 500,
+      "PublishTransaction": 500,
+      "RegisterTransaction": 10000
+    }
+  }
+}

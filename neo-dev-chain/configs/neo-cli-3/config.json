@@ -1,0 +1,10 @@
+{
+  "ApplicationConfiguration": {
+    "DataDirectoryPath": "Chain",
+    "NodePort": 4003,
+    "WsPort": 4103,
+    "UriPrefix": [ "http://*:4203" ],
+    "SslCert": "",
+    "SslCertPassword": ""
+  }
+}
