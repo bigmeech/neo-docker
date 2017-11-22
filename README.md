@@ -1,5 +1,5 @@
 # NEO Docker
-Docker configs for NEO Smart Economy
+Docker configs for NEO (smart economy) blockchain
 
 ## References
 * [NEO 节点的安装部署](http://docs.neo.org/zh-cn/node/setup.html)
