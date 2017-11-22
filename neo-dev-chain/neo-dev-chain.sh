@@ -9,3 +9,5 @@ tmux new-session -s $TMUX_NAME\;\
     new-window -d -n neo-cli-4 -c "/opt/neo-cli-4" "/root/neo-cli-runner.sh /opt/neo-cli-4" \;
 
 tmux attach -t $sessionName
+
+#while true; do sleep 1000; done
