@@ -1,6 +1,6 @@
 {
   "ApplicationConfiguration": {
-    "DataDirectoryPath": "Chain",
+    "DataDirectoryPath": "DevChain",
     "NodePort": 4001,
     "WsPort": 4101,
     "UriPrefix": [ "http://*:4201" ],
