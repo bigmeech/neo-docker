@@ -11,7 +11,7 @@ function run() {
         docker run --name $vContainerName \
             --cpus 1 \
             -h "neo-dev-chain" \
-            -dit -p 127.0.0.1:4001-4004:4001-4004 -p 4101:4101 -p $vRpcPort:$vRpcPort \
+            -dit -p 4001-4004:4001-4004 -p 4101:4101 -p 127.0.0.1:$vRpcPort:$vRpcPort \
             --restart no \
             $vDockerImage
     fi

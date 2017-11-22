@@ -19,10 +19,10 @@
       "127.0.0.1:4004",
     ],
     "SystemFee": {
-      "EnrollmentTransaction": 1000,
-      "IssueTransaction": 500,
-      "PublishTransaction": 500,
-      "RegisterTransaction": 10000
+      "EnrollmentTransaction": 2,
+      "IssueTransaction": 1,
+      "PublishTransaction": 1,
+      "RegisterTransaction": 10
     }
   }
 }
