@@ -12,7 +12,7 @@ function run() {
             --cpus 1 \
             -h "neo-dev-chain" \
             -dit -p 4001-4004:4001-4004 -p 4101:4101 -p 127.0.0.1:$vRpcPort:$vRpcPort \
-            --restart no \
+            --restart yes \
             $vDockerImage
     fi
 }
@@ -49,7 +49,8 @@ else
             docker rm $vContainerName
             ;;
         "test")
-            rpc '{"jsonrpc": "2.0", "method": "getblockcount", "params": [], "id": 5}'
+            rpc '{ "jsonrpc": "2.0", "method": "getblockcount", "params": [], "id": 5 }'
+            rpc '{ "jsonrpc": "2.0", "method": "getpeers", "params": [], "id": 1 }'
             ;;
         *) 
             usage
